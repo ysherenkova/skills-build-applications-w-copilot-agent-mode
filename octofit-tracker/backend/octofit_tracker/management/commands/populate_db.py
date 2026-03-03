@@ -48,6 +48,9 @@ class Command(BaseCommand):
             {"user": "Iron Man", "activity": "Running", "duration": 30},
             {"user": "Batman", "activity": "Cycling", "duration": 45},
             {"user": "Wonder Woman", "activity": "Swimming", "duration": 60},
+            {"user": "Manga Maniacs", "activity": "Manga Maniacs", "duration": 0,
+             "description": "Explore the fantastic stories of the most interesting characters from Japanese Manga (graphic novels).",
+             "schedule": "Tuesdays at 7pm", "max_attendance": 15},
         ])
 
         # Sample leaderboard

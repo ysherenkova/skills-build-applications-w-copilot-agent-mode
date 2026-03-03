@@ -28,6 +28,9 @@ const Activities = () => {
               <th>User</th>
               <th>Activity</th>
               <th>Duration (min)</th>
+              <th>Description</th>
+              <th>Schedule</th>
+              <th>Max Attendance</th>
             </tr>
           </thead>
           <tbody>
@@ -35,7 +38,10 @@ const Activities = () => {
               <tr key={i}>
                 <td>{a.user}</td>
                 <td>{a.activity}</td>
-                <td>{a.duration}</td>
+                <td>{a.duration || ''}</td>
+                <td>{a.description || ''}</td>
+                <td>{a.schedule || ''}</td>
+                <td>{a.max_attendance || ''}</td>
               </tr>
             ))}
           </tbody>
